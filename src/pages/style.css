@@ -1,0 +1,32 @@
+h1,
+p {
+  font-family: Lato;
+}
+.list-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.card {
+  height: 50vh;
+  text-align: center;
+  padding-top: 1em;
+}
+.card.list-card-todo {
+  background-color: blueviolet;
+}
+.card.list-card-done {
+  background-color: rgb(69, 187, 60);
+}
+.card.list-card-delete {
+  background-color: rgb(246, 70, 70);
+}
+.task {
+  display: block;
+  border: 1px solid rgb(250, 250, 250);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+}
